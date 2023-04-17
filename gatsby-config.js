@@ -2,15 +2,15 @@ require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
-    siteName: 'tgxjnskdnfk',
+    siteName: 'monali',
   },
   plugins: [
     'gatsby-plugin-sass',
     {
       resolve: `gatsby-source-datocms`,
       options: {
-        apiToken:
-          process.env.DATO_READONLY_API_KEY || '1b2fe1bfc8abf2e08343a75e444b4d',
+        apiToken:`f36a5a696a4d4aaef525ed221324b9`,
+          autopop: true
       },
     },
     {

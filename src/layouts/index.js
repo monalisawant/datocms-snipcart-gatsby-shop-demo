@@ -20,11 +20,11 @@ const Layout = ({ children, site, seo }) => {
               <div className="Header__summary snipcart-summary snipcart-checkout">
                 <div className="Header__summary__title">🛍 MY CART 🛍</div>
                 <div className="Header__summary__line">
-                  Number of items:{' '}
+                  Total Games :{}
                   <span className="snipcart-total-items"></span>
                 </div>
                 <div className="Header__summary__line">
-                  Total price: <span className="snipcart-total-price"></span>
+                  Total price : <span className="snipcart-total-price">Rs</span>
                 </div>
               </div>
             </div>
@@ -33,10 +33,11 @@ const Layout = ({ children, site, seo }) => {
         <div className="Wrap">{children}</div>
         <div className="Wrap">
           <div className="Footer">
-            This website is just an example project to demonstrate how you can
+            {/* This website is just an example project to demonstrate how you can
             integrate <a href="https://www.gatsbyjs.org/">Gatsby</a>,{' '}
             <a href="https://snipcart.com/">Snipcart</a> and{' '}
-            <a href="https://www.datocms.com">DatoCMS</a>.
+            <a href="https://www.datocms.com">DatoCMS</a>. */}
+            Thanks for shopping with us
           </div>
         </div>
       </div>
