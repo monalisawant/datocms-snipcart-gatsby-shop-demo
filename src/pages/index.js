@@ -53,7 +53,7 @@ const Home = () => (
               >
                 <div className="Product__image">
                   <Img sizes={product.image.sizes} />
-                </div>{' '}
+                </div>
                 <div className="Product__details">
                   <div className="Product__name">
                     {product.name}
