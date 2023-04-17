@@ -2,7 +2,7 @@ require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
-    siteName: 'my game shop',
+    siteName: 'video game shop',
   },
   plugins: [
     'gatsby-plugin-sass',
@@ -19,7 +19,7 @@ module.exports = {
         publicApiKey:
           process.env.SNIPCART_PUBLIC_API_KEY ||
           'OWE3MmZmMjQtNTk3Yi00OThhLWEwMmUtZDY4ZWM4NzIwYzZiNjM2NjM0Mzc1NzE0MTUwNzI1',
-        autopop: true,
+        autopop: false,
       },
     },
   ],
